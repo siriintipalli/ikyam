@@ -1,0 +1,478 @@
+body{
+  overflow-x: hidden;
+}
+/*=============================================================navbar starts======================================================================*/
+.nav-transparent{
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  color: #fff;
+  padding: 20px;
+}
+
+.nav-item-border-li a span {
+  font-size: 13.5px;
+  font-weight: 700;
+}
+.text-black {
+  color: white;
+}
+.navbar-collapse {
+  padding: 0px 20px;
+}
+.navbar-toggler,.navbar-toggler:hover,.navbar-toggler:active,.navbar-toggler:focus-within{
+  border: 0;
+  outline: 0;
+}
+@media (max-width: 991px) {
+  .navbar-brand{
+    margin: 0px 0px; 
+  }
+  .navbar-collapse{
+    padding: 0px 20px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+  }  
+}
+
+.nav-item-border {
+  border-bottom: 2px solid transparent;
+  width: 0%;
+  -webkit-transition-property: width;
+  -webkit-transition-duration: 0.5s;
+  transition-property: width;
+  transition-duration: 0.5s;
+}
+.nav-item-border-li:hover .nav-item-border {
+  width: 100%;
+  /*border-bottom: 2px solid #212121;*/
+  border-bottom: 2px solid white;
+}
+
+.nav-item{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/*======================================================================= Navbar Ends ============================================================================================*/
+/*======================================================================= index page hero-unit starts=============================================================================*/
+.index-page-hero-unit{
+  background: rgba(0,22,163,1);  
+  position: relative;
+  min-height: 700px;
+  height: 95vh;
+}
+.index-page-hero-unit-two{
+  /* background: rgba(0,22,163,1);  */
+  position: relative;
+  transform: skew(0deg, -5deg);
+  background: linear-gradient(#edf1f7,#edf1f7); 
+  /* background:#b7deed; */
+  margin-top: -90px;
+}
+
+
+.index-page-hero-unit-three{ 
+  /* background: rgb(182, 189, 235);  */
+  position: relative;
+  min-height: 300px;  
+  transform: skew(0deg, -5deg);
+  background: rgba(0,22,163,1);    
+  /* background: rgba(66, 197, 245);  */
+  /* background: rgba(233, 233, 240) */
+  /* background: linear-gradient(#edf1f7,#edf1f7);  */
+  /* background: linear-gradient(#edf1f7,#edf1f7); */
+  margin-top:-90px;
+}
+
+.sectionhear{ 
+  position: relative;
+  transform: skew(0deg, -5deg);
+  background: linear-gradient(#edf1f7,#edf1f7);  
+  /* background: rgba(0,22,163,1);  */
+  margin-top:-90px;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.content{
+  transform: skew(0deg ,5deg);
+  padding-bottom: 20%;
+  
+}
+
+.hero-unit-text-container{
+  text-align: left;
+  color: #fff;
+}
+.hero-unit-text-container h1{
+  font-size: 2.2em;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 1.5px;
+  
+}
+.hero-unit-text-container p{
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.hero-unit-text-container-two h1{
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 1.5px;
+  color:black;
+  
+}
+
+@media (max-width: 768px) {
+  .hero-unit-text-container h1{
+    font-size: 20px;
+  }
+  .hero-unit-text-container p{
+    font-size: 1em;
+  } 
+  .hero-unit-img{
+    display: none;
+  }
+  .index-page-hero-unit-two h1{
+    padding-left: 10px;
+  }
+}
+
+.hero-unit-text-container-two p{
+  font-weight: 300;
+  font-size: 1.2em;
+  color:black;
+}
+.hero-unit-text-container-three h1{
+  font-size: 2.2em;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 1.5px;
+  color:white;
+  font-family: Arial; 
+}
+.card-body cbody{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cardshow h2{
+  font-family:"Raleway";
+  font-weight:400;   
+  font-size:1.2 em;
+}
+
+@media only screen and (max-width: 640px) { 
+  .hero-unit-text-container h1,p{
+    padding-left: 10px;   
+  } 
+  .hero-unit-text-container-two h1,p{
+    padding-left: 10px;
+  }  
+  .hero-unit-text-container-three h1{
+    padding-top: 2px;
+    padding-left: 10px;
+    font-size: 1em;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+  .cardstyle{
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-right:10px;
+  }
+  .cbody{
+    padding-left: 10px;
+  }
+  .btn-join {
+    padding-left:15px;
+  }
+  .cardshow h2{
+    font-size:1em;
+    padding:2px;
+  }
+  .btnshow{
+    font-weight:200;
+    padding:1px;
+  }
+} 
+
+.cardstyle{
+  border-radius:15px;
+  /* box-shadow: 2px 2px 2px lightgrey; */
+}
+.flexhead{
+  font-family: "Rubik";
+  font-size: 24px;
+  font-weight: 600;
+  color: #161616;
+  
+}
+.para{
+  font-family: Arial;
+  font-size: 1em;
+  font-weight: 200;
+}
+/*============================index page hero unit ends=======================================*/
+/*==============================button starts=====================================================*/
+.btn-join {
+  padding: 12px 36px;
+  font-weight: 700;
+  color: white;
+  border-radius:25px;
+}
+.btn-join-service {
+  padding: 12px 36px;
+  font-weight: 700;
+  color: white;
+  border-radius:25px;
+  background: #fff;
+  color: rgba(0,22,163,1);  
+}
+/*==============================button ends================================================*/
+/*==============================footer starts==============================================*/
+
+footer{
+  background-color: #111111;
+  padding: 30px 0px;
+  position:relative;
+  margin-top: -90px;
+}
+.footer-a >li>a{
+  color: #FFF;
+  text-decoration: none;
+}
+.footer-links ul>li{
+  display: inline-block;
+  padding: 0px 12px;
+  font-weight: 400;
+}
+.footer-links-main{
+  color: #FFF;
+}
+.footer-links-main >ul{
+  list-style: none;
+  padding-left: 0px;
+}
+.footer-links-main >ul>li{
+  font-size: 16px;
+  padding: 3px 0px;
+}
+.footer-phone-number {
+  color:inherit;
+  text-decoration:none;
+}
+.socail-icons li a{
+  color: #ccc;
+}
+.socail-icons li a:hover, .socail-icons li a:active{
+  color: #fff;
+  text-decoration: none;
+}
+.footernavlink {
+  text-decoration: none;
+  color: white;
+}
+.footernavlink:hover {
+  text-decoration: none;
+  color: #BDBDBD;
+}
+@media only screen and (max-width: 640px) { 
+  .footer-links-main >ul
+  {
+    padding-left:10px;
+  }
+  .example{
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+
+/*==============================footer ends==============================================*/
+
+/*===============================service page=============================================*/
+.service-page-hero-unit{
+  background: rgba(0,22,163,1);  
+  position: relative;
+  min-height: 700px;
+  height: 95vh;
+}
+.service-unit-text-container{
+  text-align: left;
+  color: #fff;
+}
+.service-unit-text-container h1{
+  font-size: 2.2em;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 1.5px;
+  padding-left: 10px;
+  
+}
+.service-unit-text-container p{
+  font-weight: 300;
+  font-size: 1.5em;
+  padding-left: 10px;
+}
+box-container{
+  margin-bottom: 20px; 
+}
+.box{
+  width: 100%;
+  background: rgba(0,22,163,1);
+  box-shadow: 5px 5px 15px rgba(0,0,0,.1);
+  border: 1px solid lightgray;
+  padding: 20px;
+  padding-bottom: 9px;
+  color: #fff;
+}
+.box:hover {
+  box-shadow: 7px 7px 15px rgba(255, 255, 255, 0.2);
+}
+.box h3{
+  font-size: 24px;
+  font-weight: 700;
+}
+.box p{
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  .service-unit-text-container h1{
+    font-size: 20px;
+    
+  }
+  .service-unit-text-container p{
+    font-size: 1em;
+  } 
+  
+}
+
+@media only screen and (max-width: 640px) { 
+  .button{
+    padding-left: 20px;
+    
+  }  
+  .servicecards{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left:20px;
+    padding-bottom: 10px;
+  }
+}
+
+
+/*=============================service page ends==============================================*/
+
+
+/*================================footer map starts====================================================*/
+.map-footer-wrap
+{
+  height: 700px;
+  position: relative;
+  margin-top:-10%;
+}
+.map-footer-wrap iframe 
+{
+  width: 102%;
+  height: 102%;
+  position: absolute;
+}
+
+/*================================footer map ends=======================================================*/
+/*==================================contact page starts==================================================*/
+
+.contact-page-hero-unit{
+  background: rgba(0,22,163,1);  
+  position: relative;
+  min-height: 700px;
+  height: 95vh;
+}
+.contact-page-hero-unit-two-form
+{ 
+  position: relative;
+  transform: skew(0deg, -10deg);
+  background: linear-gradient(#edf1f7,#edf1f7); 
+  margin-top: -165px;
+}
+.content-form{
+  transform: skew(0deg ,10deg);
+  padding-bottom: 20%; 
+}
+/*=======================================contact page ends=========================================================*/
+/*=======================================about page starts==========================================================*/
+
+.about-page-hero-unit{
+  background: rgba(0,22,163,1);  
+  position: relative;
+  min-height: 700px;
+  height: 95vh;
+}
+.us-line-black {
+  height: 2px;
+  background-image: linear-gradient(30deg, #3B4965, #3B4965);
+  margin-top: 5px;
+  width: 50px;
+}
+.paras{
+  font-family: Arial;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.box-positions{
+  border: 1px solid #eee;
+  padding: 30px 15px;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22);
+}
+.box-positions h5{
+  margin-bottom: 0px;
+}
+.box-positions p{
+  margin-bottom: 0px;
+  
+}
+.box-positions h5{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.box-positions p{
+  font-size: 18px;
+  font-weight: 300;
+}
+.about-page-hero-unit-two{
+  
+  position: relative;
+  transform: skew(0deg, -5deg);
+  background: linear-gradient(#edf1f7,#edf1f7); 
+  margin-top: -90px;
+}
+
+@media only screen and (max-width: 640px) { 
+ .jobbox{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left:10px;
+    padding-bottom: 10px;
+  }
+}
+
+
+/*========================================about page ends===========================================================*/
+
+
+
+
+
+
