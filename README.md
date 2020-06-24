@@ -1,7 +1,9 @@
 how to run my code ???
 after cloning my code into ur local desktop
 open command prompt ,go to the folder (where my projct code was there)
-after going: type the command like
+for windows we have to install ruby installer  https://rubyinstaller.org/download/
+after installing follow the steps in coomamd prompt
+ type the command like
 gem install bundler jekyll       ---refer this link(https://jekyllrb.com/)--
 it will install gems 
 after type this command 
